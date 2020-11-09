@@ -19,3 +19,7 @@ body{
 .jumbtron h4{
 text-align: center;
 }
+.navbar-brand{
+  text-align: center;
+  align-items: center;
+}
