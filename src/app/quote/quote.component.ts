@@ -33,6 +33,15 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
+  // tslint:disable-next-line: typedef
+  upvote(index){
+    this.quotes[index].upvote++;
+  }
+  // tslint:disable-next-line: typedef
+  downvote(index){
+    this.quotes[index].downvote++;
+  // tslint:disable-next-line: no-trailing-whitespace
+  } 
   constructor() { }
 
   ngOnInit(): void {

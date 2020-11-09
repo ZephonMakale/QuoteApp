@@ -9,8 +9,8 @@
               <p>
                 {{ quote.description }}
               </p>
-              <button class="btn btn-outline-success">Like</button>
-              <button class="btn btn-outline-primary">Dislike</button>
+              <button class="btn btn-outline-success" (click) = 'upvote(i)'>Like{{quote.upvote}}</button>
+              <button class="btn btn-outline-primary" (click) = 'downvote(i)'>Dislike{{quote.downvote}}</button>
               <button class="btn btn-outline-danger" (click) = 'deleteQuote($event,i)'>DEL</button>
               <footer class="blockquote-footer">
                 <cite title="Source Title">{{ quote.author }}</cite>
