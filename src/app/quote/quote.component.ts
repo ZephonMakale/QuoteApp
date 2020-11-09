@@ -14,6 +14,14 @@ export class QuoteComponent implements OnInit {
     new Quote(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son', "Steve", new Date(2020,6,10)),
 
   ];
+  // tslint:disable-next-line: typedef
+  addNewQuote(quote) {
+    // tslint:disable-next-line: prefer-const
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength + 1;
+    quote.completeDate = new Date(quote.completeDate);
+    this.quotes.push(quote);
+  }
   constructor() { }
 
   ngOnInit(): void {
