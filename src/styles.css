@@ -16,3 +16,6 @@ body{
 *{
   font-family: 'Montserrat', sans-serif;
 }
+.jumbtron h4{
+text-align: center;
+}
