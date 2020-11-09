@@ -14,6 +14,10 @@ This is my Quotes-app web application which allows users to add their quotes, up
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Technologies Used
+
+I used AngularCli to create the app.
+
 ## Setup/Installation Requirements
 
 * Open your terminal in Pc and create a folder.
