@@ -18,7 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 * Open your terminal in Pc and create a folder.
 * Clone this repository into the folder using command line below.
-* git clone https://github.com/ZephonMakale/QuoteApp
+* git clone <https://github.com/ZephonMakale/QuoteApp>
 * Open it in an editor "Atom, Vs Code, Sublime text" etc.
 * Contribute and push your changes to your repository.
 
