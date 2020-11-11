@@ -14,7 +14,7 @@ export class QuoteComponent implements OnInit {
       'Zephon Makale',
       'Steve Jobs',
       'Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.” ',
-      new Date(2020, 6, 10)
+      new Date(2020, 9, 11)
     ),
     new Quote(
       2,
